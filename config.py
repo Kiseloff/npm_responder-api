@@ -7,7 +7,7 @@ defaults = {
     'CHECKED_HOSTS': 'checked_hosts.log',
     'RUNTIMELOG': 'api_runtime.log',
     'LOGDIR': './logs',
-    'VERSION': '1.0.2',
+    'VERSION': '1.1.0',
 }
 
 RUNTIMELOG = '/'.join([defaults['LOGDIR'], defaults['RUNTIMELOG']])

@@ -88,7 +88,8 @@ Python 3.7 is recommended
 
 ##### Example
 
-    docker run -d -p 8023:8023 \
+    docker run -d -p 5001:5001 \
     -v ~/npm_responder_logs:/usr/src/app/logs \
     --name npm_responder-api-app kiseloff/npm_responder-api:latest \
-    -u SOME_USER --snmpv3-secret SOME_SNMP_PASS --ssh-secret SOME_SSH_PASS
+    -p 5001 -u SOME_USER --snmpv3-secret SOME_SNMP_PASS --ssh-secret SOME_SSH_PASS
+    
